@@ -1,4 +1,4 @@
-FROM testdocker456/test:2
+FROM testdocker456/test:3
 
 WORKDIR /home/seluser/tools/
 
