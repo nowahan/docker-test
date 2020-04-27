@@ -3,6 +3,7 @@ FROM testdocker456/test:3
 WORKDIR /home/seluser/tools/
 
 ADD .env /home/seluser/tools/
+ADD key.json /home/seluser/tools/
 
 EXPOSE 4444
 EXPOSE 5900
